@@ -1,7 +1,7 @@
 # Vorlesung – Mehrkörperprobleme in der Physik
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/TobiBu/Nbody-lecture/blob/master/lehrprobe.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/TobiBu/Nbody-lecture/blob/master/nbody_lecture_colab.ipynb)
 
 Dieses Repository enthält eine interaktive Jupyter Notebook-Vortrag, der sich mit verschiedenen Aspekten von Mehrkörperproblemen in der Physik beschäftigt. Das Notebook kombiniert theoretische Erklärungen, numerische Simulationen und Animationen, um fundamentale Konzepte wie Gravitation, Chaos, Instabilitäten und numerische Integrationsmethoden (z. B. Leapfrog-Integrator) anschaulich darzustellen.
 
