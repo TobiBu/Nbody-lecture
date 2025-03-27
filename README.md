@@ -35,16 +35,26 @@ Dieses Repository enthält eine interaktive Jupyter Notebook-Vortrag, der sich m
 
 ## Ausführen des Notebooks
 
-### Auf Google Colab
+### Repository lokal klonen
 
-1. Öffne [Google Colab](https://colab.research.google.com/).
-2. Wähle im Menü "Datei" → "Notebook öffnen" → "GitHub".
-3. Gib die URL dieses GitHub-Repositories ein und wähle das Notebook `lehrprobe.ipynb` aus.
-4. Das Notebook wird in Google Colab geladen und kann dort ausgeführt werden (eventuell musst du einige Pakete per `!pip install` nachinstallieren).
+Bevor du das Notebook öffnest, musst du das Repository lokal klonen oder alternativ direkt über Google Colab öffnen.
 
-**Hinweis** Die Animationen starten nicht automatisch auf Colab, zum Abspielen bitte den Play Button unter den Plots benutzen. Außerdem brauchen die Berechnungen auf Colab wesentlich länger als local auf einem PC.
+1. **Klonen:**
+   Öffne ein Terminal und führe folgenden Befehl aus:
+   ```bash
+   git clone git@github.com:TobiBu/Nbody-lecture.git
+   ```
+
+2. **Wechsel in das Verzeichnis:**
+   ```bash
+   cd Nbody-lecture
+   ```
+
+---
 
 ### Lokales Ausführen mit Conda
+
+Wir befinden uns im Ordner Nbody-lecture des soeben geklonten Github Repository.
 
 1. **Erstelle ein neues Conda-Environment mit allen dependencies:**
 
@@ -95,6 +105,15 @@ Keine Garantien meinerseits.
 5. **Öffne dieses Notebook und führe die Zellen aus.**
 
 6. **Falls es fehlende Pakete geben sollte - nachinstallieren...**
+
+### Auf Google Colab
+
+1. Öffne [Google Colab](https://colab.research.google.com/).
+2. Wähle im Menü "Datei" → "Notebook öffnen" → "GitHub".
+3. Gib die URL dieses GitHub-Repositories ein und wähle das Notebook `lehrprobe.ipynb` aus.
+4. Das Notebook wird in Google Colab geladen und kann dort ausgeführt werden (eventuell musst du einige Pakete per `!pip install` nachinstallieren).
+
+**Hinweis** Die Animationen starten nicht automatisch auf Colab, zum Abspielen bitte den Play Button unter den Plots benutzen. Außerdem brauchen die Berechnungen auf Colab wesentlich länger als local auf einem PC.
 
 ## Hinweise
 
