@@ -42,6 +42,8 @@ Dieses Repository enthält eine interaktive Jupyter Notebook-Vortrag, der sich m
 3. Gib die URL dieses GitHub-Repositories ein und wähle das Notebook `lehrprobe.ipynb` aus.
 4. Das Notebook wird in Google Colab geladen und kann dort ausgeführt werden (eventuell musst du einige Pakete per `!pip install` nachinstallieren).
 
+**Hinweis** Die Animationen starten nicht automatisch auf Colab, zum Abspielen bitte den Play Button unter den Plots benutzen.
+
 ### Lokales Ausführen mit Conda
 
 1. **Erstelle ein neues Conda-Environment mit allen dependencies:**
